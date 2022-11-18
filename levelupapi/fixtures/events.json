@@ -1,0 +1,13 @@
+[
+  {
+      "model": "levelupapi.event",
+      "pk": 1,
+      "fields": {
+        "game": 1,
+        "description": "super rad tabletop game event",
+        "date": "2022-11-15",
+        "time": "20:30",
+        "organizer": 1
+    }
+  }
+]
