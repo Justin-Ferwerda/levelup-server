@@ -33,7 +33,7 @@ class EventView(ViewSet):
         if game is not None:
             events = events.filter(game=game)
             
-        uid = request.query_params.get('uid', None)
+        uid = request.META['HTTP_AUTHORIZATION']
             
         gamer = Gamer.objects.get(uid=uid)
         
